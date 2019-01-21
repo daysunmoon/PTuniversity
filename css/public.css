@@ -1,0 +1,167 @@
+/*css重置*/
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,input,figure,figcaption{margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6{font-size:16px;font-weight:normal;}
+ul,ol,li{list-style:none;}
+b,strong{font-weight:none;}
+em,i{font-style:normal;}
+a,u{text-decoration:none;}
+img{display:block;border:0;}
+input{outline:none;}
+/*相同属性值*/
+#header #header_C,#nav #nav_C{
+	width: 1002px;
+	margin: auto;
+}
+/*header头部*/
+#header{
+	height: 136px;
+	
+}
+#header #header_C{
+	height: 92px;
+	background: url(../img/headerBck.jpg) repeat-x;
+}
+#header #header_C #logo{
+	width: 235px;
+	height: 71px;
+	margin-left: 17px;
+	padding-top: 9px;
+	float: left;
+}
+#header #header_C #motto{
+	width: 200px;
+	height: 92px;
+	float: left;
+	margin-left: 200px;
+}
+#header #header_C #motto i{
+	font-size: 30px;
+	color: #fff;
+	letter-spacing: 10px;
+	line-height: 40px;
+	/*display: none;*/
+}
+/*导航栏*/
+#nav{
+	height: 42px;	
+}
+#nav #nav_C{
+	height: 42px;
+	background: #0390FC;
+}
+#nav #nav_C .first-title>li{	
+	float: left;
+	position: relative;	
+	
+	margin-right: 10px;
+}
+#nav #nav_C .first-title li>a{
+	display: block;
+	height: 42px;
+	line-height: 42px;
+	width: 80px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+}
+#nav #nav_C .first-title>li>a:hover{
+	background: #fff;
+	color:#0390FC ;
+}
+#nav #nav_C .second-title{
+	position: absolute;
+	left: 0;
+	top: 42px;
+	z-index: 1000;
+	display: none;
+}
+#nav #nav_C .second-title li{
+	height: 42px;
+	border: 1px solid #eee;
+	background: #0390FC;	
+	width: 78px;
+	text-align: center;
+}
+#nav #nav_C .second-title li a{
+	font-size: 14px;
+}
+/*尾部footer*/
+#footer{
+	width: 1002px;
+	height: 200px;
+	margin: auto;
+	background: #8CABE1;
+}
+#footer dl{
+	float: left;
+	margin: 0 20px;
+}
+#footer dl:first-child{
+	margin-left: 30px;
+}
+#footer dl dt{
+	text-align: center;
+	line-height:30px ;
+}
+#footer dl dt a{
+	font-size: 14px;
+	color: #fff;
+	
+}
+#footer dl dd{
+	text-align: center;
+	line-height:24px ;
+}
+#footer dl dd a{
+	font-size: 12px;
+	color: #fff;
+	line-height: 24px;
+}
+#footer dl dd a:hover{
+	color: #0390FC;
+}
+#footer dl dt:last-child img{
+	width: 80px;
+	height: 80px;
+	margin-top: 12px;
+	
+}
+
+/*bottom*/
+#bottom{
+	width: 1002px;
+	height: 100px;
+	background: url(../img/headerBck-Bottom.jpg) repeat-x;
+	margin: auto;
+}
+#bottom #bottom_CL{
+	width: 80px;
+	margin-left: 100px;
+	float: left;
+}
+#bottom .bottom_img{
+	display: block;
+}
+#bottom #bottom_CR{
+	/*width: 630px;*/
+	float: left;
+	margin-left: 50px;
+	padding-top: 20px;
+	font-weight: 700;
+}
+#bottom #bottom_CR .xuke{
+	/*text-align: center;*/
+	line-height: 40px;
+}
+#bottom #bottom_CR .xuke a{
+	color: #000;
+}
+#bottom #bottom_CR .xuke i{
+	width: 20px;
+	height: 20px;
+	display: block;
+	float: left;
+	margin-left: 190px;
+	margin-top: 10px;
+	background: url(../img/netpolice.png) no-repeat;
+}

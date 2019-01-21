@@ -1,0 +1,58 @@
+/*轮播图*/
+#banner{
+	width: 1000px;
+	height: 310px;
+	border: 1px solid #fff;
+	margin: auto;
+	position: relative;
+	overflow: hidden;
+}
+#banner .bannerImg{
+	width: 13000px;
+	height: 310px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#banner .bannerImg li{
+	float: left;
+}
+#banner .banner_nav{
+	position: absolute;
+	right: 50px;
+	bottom: 20px;
+}
+#banner .banner_nav li{
+	width: 20px;
+	line-height: 20px;
+	float: left;
+	margin-right: 10px;
+	cursor: pointer;
+	text-align: center;
+	background: rgba(255,255,255,0.5);
+}
+#banner .banner_nav .active{
+	background: red;
+}
+#banner .arr{
+	display: none;
+	z-index: 1000;
+}
+#banner .arr .toLeft{
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	left: 30px;
+	top: 125px;
+	background:rgba(255,255,255,0.5) url(../img/toLeft.png) no-repeat;
+	background-position: 6px 6px;
+}
+#banner .arr .toRight{
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	right: 30px;
+	top: 125px;
+	background:rgba(255,255,255,0.5) url(../img/toRight.png) no-repeat;
+	background-position:6px 6px ;
+}
