@@ -4,3 +4,6 @@ $('.over').hover(function(){
 },function(){
 	$(this).parent().find('.second-title').stop().slideUp(1000);
 })
+$('.second-title').find('li').mouseenter(function(){
+	$(this).css('background','red');
+})

@@ -23,7 +23,7 @@ function autoPlay(){
 	animate({
 		ele:bannerImg,
 		param:{
-			left:-index*1000
+			left:-index*1300
 		}
 	});
 	bannerNavList[index == bannerNavList.length ?0 : index].className = "active";
@@ -91,7 +91,7 @@ bannerNav.onmouseover = function(e){
 		animate({
 			ele:bannerImg,
 			param:{
-				left:-index*1000
+				left:-index*1300
 			}
 		});
 		bannerNavList[index].className = "active";

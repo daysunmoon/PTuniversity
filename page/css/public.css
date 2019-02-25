@@ -8,18 +8,22 @@ a,u{text-decoration:none;}
 img{display:block;border:0;}
 input{outline:none;}
 /*相同属性值*/
-#header #header_C,#nav #nav_C{
-	width: 1002px;
+#header #header_C{
+	width: 1300px;
 	margin: auto;
 }
 /*header头部*/
 #header{
+	width: 1300px;
 	height: 136px;
-	
+	position: absolute;
+	left: 50px;
+	top:100px;
+	z-index: 1000;
 }
 #header #header_C{
 	height: 92px;
-	background: url(../img/headerBck.jpg) repeat-x;
+	/* background: url(../img/headerBck.jpg) repeat-x; */
 }
 #header #header_C #logo{
 	width: 235px;
@@ -28,7 +32,7 @@ input{outline:none;}
 	padding-top: 9px;
 	float: left;
 }
-#header #header_C #motto{
+/* #header #header_C #motto{
 	width: 200px;
 	height: 92px;
 	float: left;
@@ -39,21 +43,21 @@ input{outline:none;}
 	color: #fff;
 	letter-spacing: 10px;
 	line-height: 40px;
-	/*display: none;*/
-}
+} */
 /*导航栏*/
 #nav{
 	height: 42px;	
+	float: right;
+	margin-right: 30px; 
 }
 #nav #nav_C{
 	height: 42px;
-	background: #0390FC;
+	/* background: #0390FC; */
 }
 #nav #nav_C .first-title>li{	
 	float: left;
-	position: relative;	
-	
-	margin-right: 10px;
+	position: relative;		
+	margin-right: 15px;
 }
 #nav #nav_C .first-title li>a{
 	display: block;
@@ -62,7 +66,7 @@ input{outline:none;}
 	width: 80px;
 	text-align: center;
 	color: #fff;
-	font-size: 14px;
+	font-size: 20px;
 }
 #nav #nav_C .first-title>li>a:hover{
 	background: #fff;
@@ -74,6 +78,7 @@ input{outline:none;}
 	top: 42px;
 	z-index: 1000;
 	display: none;
+	opacity: 0.7;
 }
 #nav #nav_C .second-title li{
 	height: 42px;
